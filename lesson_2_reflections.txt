@@ -1,9 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-It creates an initial commit to start the git tracking process. You need to do it to start tracking changes.
+It creates a repository for all future commits. You need to do it to start tracking changes.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+The staging area is an in between so you can make sure that you want to commit the changes before they are final.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
