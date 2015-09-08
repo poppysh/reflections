@@ -6,12 +6,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You may not want to use the changes locally because of conflicts and overwriting.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are copies where the original content can’t be changed. Clones copy an exact copy of the files and changes can be pushed/pulled as needed. Branches make changes to files that can eventually be merged back into the master.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?

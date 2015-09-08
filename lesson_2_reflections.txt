@@ -10,13 +10,23 @@ The staging area is an in between so you can make sure that you want to commit t
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+git status will show all items ready to be committed. If there are too many in the staging area you have the option to remove one or more to keep to one logical change per commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+If you want to make experimental changes or alternate versions so that the main version stays the same.
+
 How do the diagrams help you visualize the branch structure?
+
+It shows the last parent they have in common, and the last change they share.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+It merges all the files into one included additions and subtractions. It is shown in the diagram as two becoming one, same as the files.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+
+The automatic merging will only work if there are no conflicts so it results in fewer errors. Manually you can compare the files, but it takes longer.
